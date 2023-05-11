@@ -1,0 +1,3 @@
+name: react-frontend
+runtime: go
+description: A Go program to deploy a static website on Google Cloud

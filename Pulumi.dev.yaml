@@ -1,0 +1,12 @@
+config:
+  # TODO Fill in your gcp-project
+  gcp:project: fake-data-here-please-add-your-own
+  react-frontend:errorDocument: error.html
+  react-frontend:indexDocument: index.html
+  react-frontend:path: ./build
+  # bucket names must be lowercase, no dots
+  # https://cloud.google.com/storage/docs/naming-buckets
+  react-frontend:frontendAppBucketName: frontend-app-bucket
+  # TODO Fill in your domain
+  react-frontend:domainName: buy-your-own-domain.com
+  react-frontend:appHostname: app
